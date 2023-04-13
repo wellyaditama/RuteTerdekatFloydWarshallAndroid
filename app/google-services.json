@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149867754906",
+    "project_id": "ruteterdekat-56dd2",
+    "storage_bucket": "ruteterdekat-56dd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149867754906:android:6463246d70fab41f2f3623",
+        "android_client_info": {
+          "package_name": "com.example.ruterumahsakit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149867754906-45nrgq90rjvkg446j4rdj4shf4sumrah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcL9frelOU8_7-FGffcfLPyxSfY2TXcV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149867754906-45nrgq90rjvkg446j4rdj4shf4sumrah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
