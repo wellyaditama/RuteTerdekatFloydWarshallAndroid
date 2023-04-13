@@ -60,7 +60,7 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Berhasil login dengan email" + email, Toast.LENGTH_SHORT).show()
                 registerDialog.dismiss()
 
-                startActivity(Intent(this, HomeActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
                 finish()
             }.addOnFailureListener{
                 Toast.makeText(this, "Username / Password Salah!", Toast.LENGTH_SHORT).show()
