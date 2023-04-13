@@ -64,22 +64,22 @@ class MainActivity : AppCompatActivity(), OnMapClickListener {
                 .build()
         )
 
-//        mapView.getMapboxMap().loadStyleUri(Style.MAPBOX_STREETS, object : Style.OnStyleLoaded {
-//
-//            override fun onStyleLoaded(style: Style) {
-//                addAnnotationToMap(-6.8749143, 109.04974445)
-//                addAnnotationToMap(-6.8735408, 108.8764529)
-//                addAnnotationToMap(-7.2657805, 109.0122948)
-//                addAnnotationToMap(-6.86449356688, 109.017651568)
-//                addAnnotationToMap(-7.2626568, 109.0105722)
-//                addAnnotationToMap(-6.87141257873, 109.041250197)
-//                addAnnotationToMap(-7.26041, 109.005534)
-//                addAnnotationToMap(-6.96527932862, 108.984271237)
-//
-//            }
-//
-//
-//        })
+        mapView.getMapboxMap().loadStyleUri(Style.MAPBOX_STREETS, object : Style.OnStyleLoaded {
+
+            override fun onStyleLoaded(style: Style) {
+                addAnnotationToMap(-6.8749143, 109.04974445)
+                addAnnotationToMap(-6.8735408, 108.8764529)
+                addAnnotationToMap(-7.2657805, 109.0122948)
+                addAnnotationToMap(-6.86449356688, 109.017651568)
+                addAnnotationToMap(-7.2626568, 109.0105722)
+                addAnnotationToMap(-6.87141257873, 109.041250197)
+                addAnnotationToMap(-7.26041, 109.005534)
+                addAnnotationToMap(-6.96527932862, 108.984271237)
+
+            }
+
+
+        })
 
         buttons.setOnClickListener { startActivity(Intent(this, Testing2::class.java)) }
 

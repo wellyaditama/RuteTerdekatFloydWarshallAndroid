@@ -18,4 +18,6 @@ class HomeFragmentFavourite : Fragment() {
         return inflater.inflate(R.layout.fragment_home_favourite, container, false)
     }
 
+
+
 }
