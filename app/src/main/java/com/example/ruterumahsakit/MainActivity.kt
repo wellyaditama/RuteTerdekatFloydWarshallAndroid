@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), OnMapClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
++
         // set initial camera position
         val initialCameraOptions = CameraOptions.Builder()
             .center(Point.fromLngLat(108.812442, -7.0641242))
